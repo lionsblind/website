@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.info .title{
+  text-align: center;
+  margin-top: 15px;
+}
+.info .description{
+  text-align: justify;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 70px;
+  word-spacing: 0px;
+  font-size: 19px;
+}
+@media only screen and (max-width: 600px){
+  .image img{
+    margin-top: 65px;    
+  }
+}
+/*FOOTER CSS*/
+
+ul li h4 {
+  color: #0ae6ee;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+ul li {
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul li:last-child {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-size: 18px;
+}
+
+/* utility */
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.space-between-start {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bg-dark {
+  background-color: #fff;
+  color: #eff1f3;
+}
+
+.bg-dark a {
+  color: #eff1f3;
+}
+
+a:hover {
+  border-bottom: 2px solid #ffd700;
+}
+
+.social-link a:hover {
+  border-bottom: none;
+  color: #ffd700;
+}
+
+.bg-light {
+  background-color: #eff1f3;
+  color: darkcyan;
+}
+
+.bg-light {
+  background-color: #eff1f3;
+  color: darkcyan;
+}
+
+.bg-light a {
+  color: darkcyan;
+}
+
+/* structure */
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* footer */
+
+footer {
+  bottom: 0;
+}
+
+.info-wrapper {
+  padding: 2rem 2rem;
+}
+
+.footer-info {
+  width: 100%;
+}
+
+.info-container {
+  flex-basis: 53.33%;
+}
+
+.social-links-container {
+  padding: 20px;
+}
+
+.social-link {
+  padding-left: 38rem;
+}
+
+.copyright-container {
+  text-align: center;
+}
+.codepannu a{
+  color:black;
+}
+
+@media screen and (max-width:535px) {
+  .footer-info.flex-row {
+    flex-direction: column;
+    margin-top: 40px;
+    display: block;
+  }
+  .banner {
+    width: 100%;
+  }
+  .social-links-container {
+    padding: 1rem 1rem;
+  }
+
+  .footer-info.space-between-start {
+    align-items: center;
+    justify-content: center;
+  }
+  .info-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .info-container:last-child {
+    margin-bottom: 0;
+  }
+  .social-link {
+    padding-left: 12rem;
+  }
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 803px) {
+  .social-links-container {
+    padding: 1rem 1rem;
+  }
+  .social-link {
+    padding-right: 23rem;
+  }
+}
